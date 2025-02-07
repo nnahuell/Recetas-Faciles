@@ -1,0 +1,389 @@
+@charset "UTF-8";
+nav.navbar {
+  background-color: #28a745;
+}
+nav.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+nav.navbar .nav-link {
+  color: white !important;
+}
+nav.navbar .nav-link:hover {
+  color: #f8f9fa !important;
+}
+
+footer {
+  background-color: #28a745;
+  color: white;
+  padding: 20px 0;
+}
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #155724;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  animation: fadeInLeft 1.2s ease-out;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+nav.navbar {
+  background-color: #28a745;
+}
+nav.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+nav.navbar .nav-link {
+  color: white !important;
+}
+nav.navbar .nav-link:hover {
+  color: #f8f9fa !important;
+}
+
+footer {
+  background-color: #28a745;
+  color: white;
+  padding: 20px 0;
+}
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #155724;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  animation: fadeInLeft 1.2s ease-out;
+}
+
+.recipe-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.recipe-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-title {
+  font-size: 1.5rem;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.recipe-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.recipe-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.recipe-button:hover {
+  background-color: rgb(30.1449275362, 125.8550724638, 52);
+}
+
+nav.navbar {
+  background-color: #28a745;
+}
+nav.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+nav.navbar .nav-link {
+  color: white !important;
+}
+nav.navbar .nav-link:hover {
+  color: #f8f9fa !important;
+}
+
+footer {
+  background-color: #28a745;
+  color: white;
+  padding: 20px 0;
+}
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #155724;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  animation: fadeInLeft 1.2s ease-out;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #28a745;
+  position: relative;
+}
+h1::after, h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #ffdd57;
+  margin: 8px auto;
+}
+
+.list-group-item {
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.list-group-item:hover {
+  background-color: #ffdd57;
+  transform: translateY(-5px);
+}
+.list-group-item h5 {
+  font-weight: bold;
+  color: #28a745;
+}
+.list-group-item p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+section {
+  margin-bottom: 40px;
+}
+section:nth-child(even) {
+  background-color: rgba(40, 167, 69, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#consejos-dieta, #consejos-ejercicio, #consejos-motivacion {
+  animation: fadeInUp 0.5s ease-out both;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+nav.navbar {
+  background-color: #28a745;
+}
+nav.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+nav.navbar .nav-link {
+  color: white !important;
+}
+nav.navbar .nav-link:hover {
+  color: #f8f9fa !important;
+}
+
+footer {
+  background-color: #28a745;
+  color: white;
+  padding: 20px 0;
+}
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #155724;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  animation: fadeInLeft 1.2s ease-out;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+nav.navbar {
+  animation: slideDown 0.5s ease-out;
+}
+
+.container {
+  animation: fadeIn 1s ease-in-out;
+}
+
+h1, h2 {
+  color: #28a745;
+  text-align: center;
+  position: relative;
+}
+h1::after, h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #ffdd57;
+  margin: 8px auto;
+  border-radius: 2px;
+}
+
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-success {
+  background-color: rgba(40, 167, 69, 0.2);
+}
+
+#planificacion, #consejos-planificacion {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+#consejos-planificacion ul li {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+}
+#consejos-planificacion ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #28a745;
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+nav.navbar {
+  background-color: #28a745;
+}
+nav.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+nav.navbar .nav-link {
+  color: white !important;
+}
+nav.navbar .nav-link:hover {
+  color: #f8f9fa !important;
+}
+
+footer {
+  background-color: #28a745;
+  color: white;
+  padding: 20px 0;
+}
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #155724;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  animation: fadeInLeft 1.2s ease-out;
+}
+
+form {
+  border: 2px solid #28a745;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  animation: scaleIn 0.8s ease-out;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #155724;
+}
+
+.form-control {
+  border: 1px solid #28a745;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.form-control:focus {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2);
+}
+
+button[type=submit] {
+  transition: background-color 0.3s, transform 0.2s;
+}
+button[type=submit]:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/*# sourceMappingURL=style.css.map */

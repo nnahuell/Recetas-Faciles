@@ -1,0 +1,44 @@
+// estilos importados
+@import 'header';
+@import 'footer';
+@import 'titulo';
+
+// Animaciones 
+.recipe-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.recipe-title {
+    font-size: 1.5rem;
+    color: $primary-color;
+    margin-bottom: 10px;
+}
+
+.recipe-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: $text-color;
+}
+
+.recipe-button {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}

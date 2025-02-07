@@ -1,0 +1,13 @@
+// Colores y variables
+$primary-color: #28a745;
+
+// Estilos del pie de página
+footer {
+    background-color: $primary-color;
+    color: white;
+    padding: 20px 0;
+    p {
+        margin: 0;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,25 @@
+// estilos importados
+@import 'header';
+@import 'footer';
+@import 'titulo';
+
+// Colores y variables
+$primary-color: #28a745;
+$secondary-color: #f8f9fa;
+$text-color: #333;
+
+// Estilos generales
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: $secondary-color;
+    color: $text-color;
+}
+
+// Animaciones para las cards
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+}

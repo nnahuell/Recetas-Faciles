@@ -1,0 +1,18 @@
+// Colores y variables
+$primary-color: #28a745;
+$secondary-color: #f8f9fa;
+
+// Estilos para el header
+nav.navbar {
+    background-color: $primary-color;
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .nav-link {
+        color: white !important;
+        &:hover {
+            color: $secondary-color !important;
+        }
+    }
+}

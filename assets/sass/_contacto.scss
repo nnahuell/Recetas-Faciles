@@ -1,0 +1,36 @@
+// Estilos importados
+@import 'header';
+@import 'footer';
+@import 'titulo';
+
+// Formulario de contacto
+form {
+  border: 2px solid #28a745;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  animation: scaleIn 0.8s ease-out;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #155724;
+}
+
+.form-control {
+  border: 1px solid #28a745;
+  transition: transform 0.3s, box-shadow 0.3s;
+  &:focus {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2);
+  }
+}
+
+button[type="submit"] {
+  transition: background-color 0.3s, transform 0.2s;
+  &:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+}

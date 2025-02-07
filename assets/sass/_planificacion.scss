@@ -1,0 +1,101 @@
+// Estilos importados
+@import 'header';
+@import 'footer';
+@import 'titulo';
+
+// Variables
+$primary-color: #28a745;
+$text-color: #333;
+$highlight-color: #ffdd57;
+
+// Estilos generales del cuerpo
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: $text-color;
+}
+
+// Barra de navegación
+nav.navbar {
+    animation: slideDown 0.5s ease-out;
+}
+
+// Animación para el contenido principal
+.container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+// Encabezados con decoración
+h1, h2 {
+    color: $primary-color;
+    text-align: center;
+    position: relative;
+    &::after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 4px;
+        background-color: $highlight-color;
+        margin: 8px auto;
+        border-radius: 2px;
+    }
+}
+
+// Tabla de planificación
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.table-success {
+    background-color: rgba(40, 167, 69, 0.2);
+}
+
+// Animaciones para las secciones
+#planificacion, #consejos-planificacion {
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+// Animación de consejos en lista
+#consejos-planificacion ul li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+    &::before {
+        content: '\2713';
+        position: absolute;
+        left: 0;
+        color: $primary-color;
+    }
+}
+
+// Keyframes para animaciones
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
